@@ -36,7 +36,7 @@ const WindowWrapper = (Component , windowKey) => {
             el.style.display = isOpen ? 'block' : 'none'
         } , [isOpen])
 
-        return <section id={windowKey} ref={ref} style={{zIndex}} className="absolute">
+        return <section id={windowKey} ref={ref} style={{zIndex}} className={windowKey === 'resume' ? "absolute top-5 left-15" : "absolute"}>
             <Component {...props}/>
         </section>
     }

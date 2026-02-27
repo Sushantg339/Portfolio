@@ -20,7 +20,7 @@ const Resume = () => {
                 <a href="files/resume.pdf" download className="cursor-pointer" title="Download resume"><Download className="icon"/></a>
             </div>
 
-            <Document file="files/resume.pdf">
+            <Document className={"h-[85vh] overflow-scroll"} file="files/resume.pdf">
                 <Page pageNumber={1} renderTextLayer renderAnnotationLayer/>
             </Document>
 
