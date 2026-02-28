@@ -95,7 +95,7 @@ const techStack = [
   },
   {
     category: "Backend",
-    items: ["Node.js", "Express"],
+    items: ["Node.js", "Express", "WebSocket", "Socket.io"],
   },
   {
     category: "Database",
@@ -103,7 +103,7 @@ const techStack = [
   },
   {
     category: "Dev Tools",
-    items: ["Git", "GitHub", "Docker"],
+    items: ["Git", "GitHub", "Docker", "PostMan"],
   },
 ];
 
